@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+
 struct SafeCircleApp: App {
     var body: some Scene {
         WindowGroup {
