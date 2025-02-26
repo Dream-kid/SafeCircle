@@ -10,29 +10,10 @@
 		23F7BF920D95EE6388F757FF /* Pods_SafeCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		83BFAA0F2D6F772C00E47AEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83BFA9F62D6F772B00E47AEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83BFA9FD2D6F772B00E47AEA;
-			remoteInfo = SafeCircle;
-		};
-		83BFAA192D6F772C00E47AEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83BFA9F62D6F772B00E47AEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83BFA9FD2D6F772B00E47AEA;
-			remoteInfo = SafeCircle;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		048E301994D17B5F2FFA02B5 /* Pods-SafeCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCircle.release.xcconfig"; path = "Target Support Files/Pods-SafeCircle/Pods-SafeCircle.release.xcconfig"; sourceTree = "<group>"; };
 		1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BFA9FE2D6F772B00E47AEA /* SafeCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BFAA0E2D6F772C00E47AEA /* SafeCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BFAA182D6F772C00E47AEA /* SafeCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4380AD7D5A07E2821B4DDC /* Pods-SafeCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCircle.debug.xcconfig"; path = "Target Support Files/Pods-SafeCircle/Pods-SafeCircle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,16 +36,6 @@
 			path = SafeCircle;
 			sourceTree = "<group>";
 		};
-		83BFAA112D6F772C00E47AEA /* SafeCircleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SafeCircleTests;
-			sourceTree = "<group>";
-		};
-		83BFAA1B2D6F772C00E47AEA /* SafeCircleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SafeCircleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,20 +44,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F7BF920D95EE6388F757FF /* Pods_SafeCircle.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BFAA0B2D6F772C00E47AEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BFAA152D6F772C00E47AEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				83BFAA002D6F772B00E47AEA /* SafeCircle */,
-				83BFAA112D6F772C00E47AEA /* SafeCircleTests */,
-				83BFAA1B2D6F772C00E47AEA /* SafeCircleUITests */,
 				83BFA9FF2D6F772B00E47AEA /* Products */,
 				8C8627445BB9BCD338644C3E /* Pods */,
 				69849BBFB95D819F02EAD52E /* Frameworks */,
@@ -117,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				83BFA9FE2D6F772B00E47AEA /* SafeCircle.app */,
-				83BFAA0E2D6F772C00E47AEA /* SafeCircleTests.xctest */,
-				83BFAA182D6F772C00E47AEA /* SafeCircleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,48 +110,6 @@
 			productReference = 83BFA9FE2D6F772B00E47AEA /* SafeCircle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83BFAA0D2D6F772C00E47AEA /* SafeCircleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83BFAA252D6F772C00E47AEA /* Build configuration list for PBXNativeTarget "SafeCircleTests" */;
-			buildPhases = (
-				83BFAA0A2D6F772C00E47AEA /* Sources */,
-				83BFAA0B2D6F772C00E47AEA /* Frameworks */,
-				83BFAA0C2D6F772C00E47AEA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83BFAA102D6F772C00E47AEA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				83BFAA112D6F772C00E47AEA /* SafeCircleTests */,
-			);
-			name = SafeCircleTests;
-			productName = SafeCircleTests;
-			productReference = 83BFAA0E2D6F772C00E47AEA /* SafeCircleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		83BFAA172D6F772C00E47AEA /* SafeCircleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83BFAA282D6F772C00E47AEA /* Build configuration list for PBXNativeTarget "SafeCircleUITests" */;
-			buildPhases = (
-				83BFAA142D6F772C00E47AEA /* Sources */,
-				83BFAA152D6F772C00E47AEA /* Frameworks */,
-				83BFAA162D6F772C00E47AEA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83BFAA1A2D6F772C00E47AEA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				83BFAA1B2D6F772C00E47AEA /* SafeCircleUITests */,
-			);
-			name = SafeCircleUITests;
-			productName = SafeCircleUITests;
-			productReference = 83BFAA182D6F772C00E47AEA /* SafeCircleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,14 +122,6 @@
 				TargetAttributes = {
 					83BFA9FD2D6F772B00E47AEA = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					83BFAA0D2D6F772C00E47AEA = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 83BFA9FD2D6F772B00E47AEA;
-					};
-					83BFAA172D6F772C00E47AEA = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 83BFA9FD2D6F772B00E47AEA;
 					};
 				};
 			};
@@ -237,28 +140,12 @@
 			projectRoot = "";
 			targets = (
 				83BFA9FD2D6F772B00E47AEA /* SafeCircle */,
-				83BFAA0D2D6F772C00E47AEA /* SafeCircleTests */,
-				83BFAA172D6F772C00E47AEA /* SafeCircleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		83BFA9FC2D6F772B00E47AEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BFAA0C2D6F772C00E47AEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BFAA162D6F772C00E47AEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,34 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83BFAA0A2D6F772C00E47AEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BFAA142D6F772C00E47AEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		83BFAA102D6F772C00E47AEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83BFA9FD2D6F772B00E47AEA /* SafeCircle */;
-			targetProxy = 83BFAA0F2D6F772C00E47AEA /* PBXContainerItemProxy */;
-		};
-		83BFAA1A2D6F772C00E47AEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83BFA9FD2D6F772B00E47AEA /* SafeCircle */;
-			targetProxy = 83BFAA192D6F772C00E47AEA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		83BFAA202D6F772C00E47AEA /* Debug */ = {
@@ -474,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SafeCircle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TGY9JBC622;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -506,7 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SafeCircle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TGY9JBC622;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -530,78 +390,6 @@
 			};
 			name = Release;
 		};
-		83BFAA262D6F772C00E47AEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TGY9JBC622;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.sfaeCircle.SafeCircleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeCircle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafeCircle";
-			};
-			name = Debug;
-		};
-		83BFAA272D6F772C00E47AEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TGY9JBC622;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.sfaeCircle.SafeCircleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeCircle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafeCircle";
-			};
-			name = Release;
-		};
-		83BFAA292D6F772C00E47AEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TGY9JBC622;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.sfaeCircle.SafeCircleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SafeCircle;
-			};
-			name = Debug;
-		};
-		83BFAA2A2D6F772C00E47AEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TGY9JBC622;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.sfaeCircle.SafeCircleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SafeCircle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -619,24 +407,6 @@
 			buildConfigurations = (
 				83BFAA232D6F772C00E47AEA /* Debug */,
 				83BFAA242D6F772C00E47AEA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83BFAA252D6F772C00E47AEA /* Build configuration list for PBXNativeTarget "SafeCircleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83BFAA262D6F772C00E47AEA /* Debug */,
-				83BFAA272D6F772C00E47AEA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83BFAA282D6F772C00E47AEA /* Build configuration list for PBXNativeTarget "SafeCircleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83BFAA292D6F772C00E47AEA /* Debug */,
-				83BFAA2A2D6F772C00E47AEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
