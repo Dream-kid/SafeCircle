@@ -5,3 +5,5 @@
 /build/*
 IDEWorkspaceChecks.plist
 contents.xcworkspacedata
+.DS_Store
+*.perspectivev3
