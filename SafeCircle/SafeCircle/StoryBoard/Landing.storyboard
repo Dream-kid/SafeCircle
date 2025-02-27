@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,28 +16,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.slash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3wD-cL-w9R">
-                                <rect key="frame" x="76.666666666666686" y="363.66666666666669" width="240" height="124"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SafeCircle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqO-Gc-mcu">
+                                <rect key="frame" x="148" y="86" width="97" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="dimBlack"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hn-cQ-hJA">
+                                <rect key="frame" x="20" y="186" width="135" height="162"/>
+                                <color key="backgroundColor" name="dimWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="ND9-3V-db4"/>
-                                    <constraint firstAttribute="width" constant="240" id="bv4-jI-QCh"/>
+                                    <constraint firstAttribute="width" constant="135" id="jMy-0N-Kop"/>
+                                    <constraint firstAttribute="height" constant="162" id="uKE-0B-AA8"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zJB-sx-zMh"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3wD-cL-w9R" firstAttribute="centerY" secondItem="tiX-6E-QFP" secondAttribute="centerY" id="fD2-aH-thX"/>
-                            <constraint firstItem="3wD-cL-w9R" firstAttribute="centerX" secondItem="tiX-6E-QFP" secondAttribute="centerX" id="xaI-xR-5mo"/>
+                            <constraint firstItem="sqO-Gc-mcu" firstAttribute="top" secondItem="zJB-sx-zMh" secondAttribute="top" constant="27" id="2nk-vN-tHC"/>
+                            <constraint firstItem="sqO-Gc-mcu" firstAttribute="centerX" secondItem="tiX-6E-QFP" secondAttribute="centerX" id="I00-PI-5cv"/>
+                            <constraint firstItem="4hn-cQ-hJA" firstAttribute="leading" secondItem="zJB-sx-zMh" secondAttribute="leading" constant="20" id="IK0-ck-LUv"/>
+                            <constraint firstItem="4hn-cQ-hJA" firstAttribute="top" secondItem="sqO-Gc-mcu" secondAttribute="bottom" constant="76" id="S9f-6d-qmG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="notificationView" destination="4hn-cQ-hJA" id="h6L-ey-krZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="91" y="-27"/>
+            <point key="canvasLocation" x="90.839694656488547" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
-        <image name="pencil.slash" catalog="system" width="128" height="120"/>
+        <namedColor name="dimBlack">
+            <color red="0.015686274509803921" green="0.035294117647058823" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="dimWhite">
+            <color red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
     </resources>
 </document>
