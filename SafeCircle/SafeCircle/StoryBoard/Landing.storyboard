@@ -25,7 +25,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LA-Ds-o18" userLabel="SOS View">
                                 <rect key="frame" x="218" y="143.66666666666666" width="135" height="161.99999999999997"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="xqS-YG-CZg">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sos" translatesAutoresizingMaskIntoConstraints="NO" id="xqS-YG-CZg">
                                         <rect key="frame" x="32.666666666666657" y="20" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="ZHc-3e-1LL"/>
@@ -52,7 +52,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hn-cQ-hJA">
                                 <rect key="frame" x="40" y="143.66666666666666" width="135" height="161.99999999999997"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="ImK-08-Z0t">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notification" translatesAutoresizingMaskIntoConstraints="NO" id="ImK-08-Z0t">
                                         <rect key="frame" x="32.666666666666671" y="20" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="0nW-L6-C9K"/>
@@ -79,7 +79,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sxm-12-b4N" userLabel="PatientView">
                                 <rect key="frame" x="218" y="355.66666666666669" width="135" height="162.00000000000006"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="N0h-rL-J6j">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trend" translatesAutoresizingMaskIntoConstraints="NO" id="N0h-rL-J6j">
                                         <rect key="frame" x="32.666666666666657" y="20" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="FKa-XZ-wj6"/>
@@ -106,7 +106,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkC-Cj-sCl" userLabel="locationView">
                                 <rect key="frame" x="40" y="567.66666666666663" width="135" height="162"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="PIl-4E-Zbf">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="track" translatesAutoresizingMaskIntoConstraints="NO" id="PIl-4E-Zbf">
                                         <rect key="frame" x="32.666666666666671" y="20" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="r6v-EH-MgI"/>
@@ -133,7 +133,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPi-P0-SrH" userLabel="videoView">
                                 <rect key="frame" x="40" y="355.66666666666669" width="135" height="162.00000000000006"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="doz-dQ-w70">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video" translatesAutoresizingMaskIntoConstraints="NO" id="doz-dQ-w70">
                                         <rect key="frame" x="32.666666666666671" y="20" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="3a2-pu-HsR"/>
@@ -160,7 +160,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wdd-kG-Izz" userLabel="Manage Profile">
                                 <rect key="frame" x="218" y="567.66666666666663" width="135" height="162"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="9lG-5v-Ujb">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manage" translatesAutoresizingMaskIntoConstraints="NO" id="9lG-5v-Ujb">
                                         <rect key="frame" x="32.666666666666657" y="20" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="7Ao-Xh-9OH"/>
@@ -219,7 +219,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch.png" width="936.75" height="942.75"/>
+        <image name="manage" width="70.666664123535156" height="72.333335876464844"/>
+        <image name="notification" width="68" height="67.666664123535156"/>
+        <image name="sos" width="82.666664123535156" height="76"/>
+        <image name="track" width="72" height="72.333335876464844"/>
+        <image name="trend" width="66" height="65.666664123535156"/>
+        <image name="video" width="61.333332061767578" height="76.666664123535156"/>
         <namedColor name="dimBlack">
             <color red="0.015686274509803921" green="0.035294117647058823" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
