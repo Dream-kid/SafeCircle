@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="RBX-cS-5xZ" userLabel="fullImageView">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="RBX-cS-5xZ" userLabel="fullImageView">
                                 <rect key="frame" x="143" y="384" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="i4k-gR-qJV"/>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch" width="150.33332824707031" height="147.66667175292969"/>
+        <image name="launch.png" width="936.75" height="942.75"/>
     </resources>
 </document>
