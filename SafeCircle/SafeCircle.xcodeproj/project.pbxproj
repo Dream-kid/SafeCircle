@@ -8,35 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		23F7BF920D95EE6388F757FF /* Pods_SafeCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */; };
+		83A0C62B2D760BE600B56E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C61D2D760BE600B56E65 /* AppDelegate.swift */; };
+		83A0C62C2D760BE600B56E65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */; };
+		83A0C62E2D760BE600B56E65 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C6272D760BE600B56E65 /* LandingViewController.swift */; };
+		83A0C62F2D760BE600B56E65 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A0C6222D760BE600B56E65 /* launch.png */; };
+		83A0C6302D760BE600B56E65 /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A0C6242D760BE600B56E65 /* Landing.storyboard */; };
+		83A0C6312D760BE600B56E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A0C6252D760BE600B56E65 /* LaunchScreen.storyboard */; };
+		83A0C6322D760BE600B56E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A0C6292D760BE600B56E65 /* Assets.xcassets */; };
+		83A0C6372D7631B700B56E65 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A0C6362D7631B700B56E65 /* Login.storyboard */; };
+		83A0C6402D7633BE00B56E65 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C63F2D7633BE00B56E65 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048E301994D17B5F2FFA02B5 /* Pods-SafeCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCircle.release.xcconfig"; path = "Target Support Files/Pods-SafeCircle/Pods-SafeCircle.release.xcconfig"; sourceTree = "<group>"; };
 		1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A0C61D2D760BE600B56E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83A0C6222D760BE600B56E65 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		83A0C6242D760BE600B56E65 /* Landing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		83A0C6252D760BE600B56E65 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A0C6272D760BE600B56E65 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		83A0C6292D760BE600B56E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A0C62A2D760BE600B56E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A0C6362D7631B700B56E65 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		83A0C63F2D7633BE00B56E65 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		83BFA9FE2D6F772B00E47AEA /* SafeCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4380AD7D5A07E2821B4DDC /* Pods-SafeCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCircle.debug.xcconfig"; path = "Target Support Files/Pods-SafeCircle/Pods-SafeCircle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8379E32C2D6F8886000154DF /* Exceptions for "SafeCircle" folder in "SafeCircle" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 83BFA9FD2D6F772B00E47AEA /* SafeCircle */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		83BFAA002D6F772B00E47AEA /* SafeCircle */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8379E32C2D6F8886000154DF /* Exceptions for "SafeCircle" folder in "SafeCircle" target */,
-			);
-			path = SafeCircle;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		83BFA9FB2D6F772B00E47AEA /* Frameworks */ = {
@@ -58,10 +56,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		83A0C6382D7631E100B56E65 /* SafeCircle */ = {
+			isa = PBXGroup;
+			children = (
+				83A0C63E2D7632B700B56E65 /* ViewControllers */,
+				83A0C63D2D76329B00B56E65 /* StoryBoard */,
+				83A0C63C2D76328900B56E65 /* images */,
+				83A0C62A2D760BE600B56E65 /* Info.plist */,
+				83A0C6292D760BE600B56E65 /* Assets.xcassets */,
+				83A0C63B2D76324B00B56E65 /* Defaults */,
+				83A0C6392D76322D00B56E65 /* Extension */,
+			);
+			path = SafeCircle;
+			sourceTree = "<group>";
+		};
+		83A0C6392D76322D00B56E65 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				83A0C63F2D7633BE00B56E65 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		83A0C63B2D76324B00B56E65 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				83A0C61D2D760BE600B56E65 /* AppDelegate.swift */,
+				83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		83A0C63C2D76328900B56E65 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				83A0C6222D760BE600B56E65 /* launch.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		83A0C63D2D76329B00B56E65 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				83A0C6252D760BE600B56E65 /* LaunchScreen.storyboard */,
+				83A0C6242D760BE600B56E65 /* Landing.storyboard */,
+				83A0C6362D7631B700B56E65 /* Login.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		83A0C63E2D7632B700B56E65 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				83A0C6272D760BE600B56E65 /* LandingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		83BFA9F52D6F772B00E47AEA = {
 			isa = PBXGroup;
 			children = (
-				83BFAA002D6F772B00E47AEA /* SafeCircle */,
+				83A0C6382D7631E100B56E65 /* SafeCircle */,
 				83BFA9FF2D6F772B00E47AEA /* Products */,
 				8C8627445BB9BCD338644C3E /* Pods */,
 				69849BBFB95D819F02EAD52E /* Frameworks */,
@@ -101,9 +156,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				83BFAA002D6F772B00E47AEA /* SafeCircle */,
 			);
 			name = SafeCircle;
 			productName = SafeCircle;
@@ -149,6 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A0C62F2D760BE600B56E65 /* launch.png in Resources */,
+				83A0C6302D760BE600B56E65 /* Landing.storyboard in Resources */,
+				83A0C6312D760BE600B56E65 /* LaunchScreen.storyboard in Resources */,
+				83A0C6372D7631B700B56E65 /* Login.storyboard in Resources */,
+				83A0C6322D760BE600B56E65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A0C62B2D760BE600B56E65 /* AppDelegate.swift in Sources */,
+				83A0C6402D7633BE00B56E65 /* UIViewExtension.swift in Sources */,
+				83A0C62C2D760BE600B56E65 /* SceneDelegate.swift in Sources */,
+				83A0C62E2D760BE600B56E65 /* LandingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
