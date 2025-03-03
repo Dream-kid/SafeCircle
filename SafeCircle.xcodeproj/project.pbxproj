@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23F7BF920D95EE6388F757FF /* Pods_SafeCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */; };
+		754A43A269225D27D3D28EA5 /* Pods_SafeCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63351855D0B2FDDC1FBAD3D5 /* Pods_SafeCircle.framework */; };
 		83A0C62B2D760BE600B56E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C61D2D760BE600B56E65 /* AppDelegate.swift */; };
 		83A0C62C2D760BE600B56E65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */; };
 		83A0C62E2D760BE600B56E65 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C6272D760BE600B56E65 /* LandingViewController.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		048E301994D17B5F2FFA02B5 /* Pods-SafeCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCircle.release.xcconfig"; path = "Target Support Files/Pods-SafeCircle/Pods-SafeCircle.release.xcconfig"; sourceTree = "<group>"; };
-		1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63351855D0B2FDDC1FBAD3D5 /* Pods_SafeCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A0C61D2D760BE600B56E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83A0C6222D760BE600B56E65 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
@@ -43,21 +43,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F7BF920D95EE6388F757FF /* Pods_SafeCircle.framework in Frameworks */,
+				754A43A269225D27D3D28EA5 /* Pods_SafeCircle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		69849BBFB95D819F02EAD52E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1E73C6BF4989D0F96661962F /* Pods_SafeCircle.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		83A0C6382D7631E100B56E65 /* SafeCircle */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +114,7 @@
 				83A0C6382D7631E100B56E65 /* SafeCircle */,
 				83BFA9FF2D6F772B00E47AEA /* Products */,
 				8C8627445BB9BCD338644C3E /* Pods */,
-				69849BBFB95D819F02EAD52E /* Frameworks */,
+				BA06B8E8A27524BA67E34868 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +133,14 @@
 				048E301994D17B5F2FFA02B5 /* Pods-SafeCircle.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA06B8E8A27524BA67E34868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63351855D0B2FDDC1FBAD3D5 /* Pods_SafeCircle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
