@@ -1,20 +1,20 @@
 //
-//  LandingViewController.swift
+//  patientsProfileVC.swift
 //
 
 import UIKit
 
-class LoginVC: UIViewController {
+class patientsProfileVC: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var loginLabel: UILabel!
-    @IBOutlet weak var forgetPasswordLabel: UILabel!
+    @IBOutlet weak var confirmPasswordTF: UITextField!
+    @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var signInbutton: UIButton!
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        loginLabel.attributedText = self.updateSignInLable(fullText: "Don't have an account? Register", subText: "Register")
-        forgetPasswordLabel.attributedText = self.updateSignInLable(fullText: "Forget Password?", subText: "Forget Password?")
+        loginLabel.attributedText = self.updateSignInLable(fullText: "Already have an account? Sign in", subText: "Sign in")
         self.updateUI()
     }
     private func updateSignInLable(fullText: String, subText: String) -> NSAttributedString{
@@ -26,9 +26,14 @@ class LoginVC: UIViewController {
     }
     private func updateUI(){
         self.signInbutton.roundBothCorner(16)
-        self.emailTextField.layer.borderWidth = 1
+        self.emailTextField.layer.borderWidth = 2
         self.emailTextField.layer.borderColor = UIColor.black.cgColor
-        self.passwordTextField.layer.borderWidth = 1
+        self.passwordTextField.layer.borderWidth = 2
         self.passwordTextField.layer.borderColor = UIColor.black.cgColor
+        
+        self.confirmPasswordTF.layer.borderWidth = 2
+        self.confirmPasswordTF.layer.borderColor = UIColor.black.cgColor
+        self.nameTF.layer.borderWidth = 2
+        self.nameTF.layer.borderColor = UIColor.black.cgColor
     }
 }

@@ -26,14 +26,14 @@ class RegisterVC: UIViewController {
     }
     private func updateUI(){
         self.signInbutton.roundBothCorner(16)
-        self.emailTextField.layer.borderWidth = 2
+        self.emailTextField.layer.borderWidth = 1
         self.emailTextField.layer.borderColor = UIColor.black.cgColor
-        self.passwordTextField.layer.borderWidth = 2
+        self.passwordTextField.layer.borderWidth = 1
         self.passwordTextField.layer.borderColor = UIColor.black.cgColor
         
-        self.confirmPasswordTF.layer.borderWidth = 2
+        self.confirmPasswordTF.layer.borderWidth = 1
         self.confirmPasswordTF.layer.borderColor = UIColor.black.cgColor
-        self.nameTF.layer.borderWidth = 2
+        self.nameTF.layer.borderWidth = 1
         self.nameTF.layer.borderColor = UIColor.black.cgColor
     }
 }
