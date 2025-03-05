@@ -56,8 +56,8 @@ extension SceneDelegate {
     
     private func getInitialVC() -> UIViewController {
 
-        let landingStoryboard = UIStoryboard(name: "EmergencyContacts", bundle: nil)
-        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "EmergencyContactsVC") as! EmergencyContactsVC
+        let landingStoryboard = UIStoryboard(name: "videoList", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "videoListVc") as! videoListVc
         let navController = UINavigationController(rootViewController: landingVC)
         navController.navigationBar.isHidden = true
         return navController
