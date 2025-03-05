@@ -20,7 +20,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Al3-9L-5eV" userLabel="topView">
                                 <rect key="frame" x="0.0" y="79" width="393" height="44"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patients Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqO-Gc-mcu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patients Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqO-Gc-mcu">
                                         <rect key="frame" x="125" y="10" width="143" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="143" id="PcB-IM-KIB"/>
@@ -30,17 +30,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBtn" translatesAutoresizingMaskIntoConstraints="NO" id="0l3-Rg-xna" userLabel="backBtn">
-                                        <rect key="frame" x="20" y="5" width="34" height="34"/>
+                                        <rect key="frame" x="20" y="10" width="24" height="24"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="i0o-0L-Mrk"/>
-                                            <constraint firstAttribute="width" constant="34" id="plQ-uu-IGd"/>
+                                            <constraint firstAttribute="height" constant="24" id="i0o-0L-Mrk"/>
+                                            <constraint firstAttribute="width" constant="24" id="plQ-uu-IGd"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotBtn" translatesAutoresizingMaskIntoConstraints="NO" id="BGa-Xo-HcP">
-                                        <rect key="frame" x="339" y="5" width="34" height="34"/>
+                                        <rect key="frame" x="349" y="10" width="24" height="24"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="AxY-1r-Bev"/>
-                                            <constraint firstAttribute="width" constant="34" id="I73-Bt-7c8"/>
+                                            <constraint firstAttribute="height" constant="24" id="AxY-1r-Bev"/>
+                                            <constraint firstAttribute="width" constant="24" id="I73-Bt-7c8"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
