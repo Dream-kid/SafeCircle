@@ -12,6 +12,8 @@
 		8323AD052D77693A003FEAE1 /* patientsProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323AD042D77693A003FEAE1 /* patientsProfileVC.swift */; };
 		835863FD2D7A12A8008A3289 /* SosBtn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835863FC2D7A12A8008A3289 /* SosBtn.storyboard */; };
 		835863FF2D7A12B0008A3289 /* SosBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835863FE2D7A12B0008A3289 /* SosBtnVC.swift */; };
+		835864032D7A3948008A3289 /* patientsDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835864022D7A3948008A3289 /* patientsDashboard.storyboard */; };
+		835864052D7A3951008A3289 /* patientsDashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835864042D7A3951008A3289 /* patientsDashboardVC.swift */; };
 		83A0C62B2D760BE600B56E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C61D2D760BE600B56E65 /* AppDelegate.swift */; };
 		83A0C62C2D760BE600B56E65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */; };
 		83A0C62E2D760BE600B56E65 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0C6272D760BE600B56E65 /* LandingViewController.swift */; };
@@ -37,6 +39,8 @@
 		8323AD042D77693A003FEAE1 /* patientsProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientsProfileVC.swift; sourceTree = "<group>"; };
 		835863FC2D7A12A8008A3289 /* SosBtn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SosBtn.storyboard; sourceTree = "<group>"; };
 		835863FE2D7A12B0008A3289 /* SosBtnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosBtnVC.swift; sourceTree = "<group>"; };
+		835864022D7A3948008A3289 /* patientsDashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = patientsDashboard.storyboard; sourceTree = "<group>"; };
+		835864042D7A3951008A3289 /* patientsDashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientsDashboardVC.swift; sourceTree = "<group>"; };
 		83A0C61D2D760BE600B56E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A0C61E2D760BE600B56E65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83A0C6222D760BE600B56E65 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 		83A0C63D2D76329B00B56E65 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				835864022D7A3948008A3289 /* patientsDashboard.storyboard */,
 				835863FC2D7A12A8008A3289 /* SosBtn.storyboard */,
 				83ADB7562D78CD4B0084112D /* videoList.storyboard */,
 				83ADB7522D78C6350084112D /* EmergencyContacts.storyboard */,
@@ -127,6 +132,7 @@
 		83A0C63E2D7632B700B56E65 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				835864042D7A3951008A3289 /* patientsDashboardVC.swift */,
 				835863FE2D7A12B0008A3289 /* SosBtnVC.swift */,
 				83ADB7542D78CD3A0084112D /* videoListVC.swift */,
 				83ADB7502D78C60F0084112D /* EmergencyContactsVC.swift */,
@@ -238,6 +244,7 @@
 				83A0C6302D760BE600B56E65 /* Landing.storyboard in Resources */,
 				83A0C6312D760BE600B56E65 /* LaunchScreen.storyboard in Resources */,
 				8323AD032D776916003FEAE1 /* patientsProfile.storyboard in Resources */,
+				835864032D7A3948008A3289 /* patientsDashboard.storyboard in Resources */,
 				83ADB7572D78CD4B0084112D /* videoList.storyboard in Resources */,
 				835863FD2D7A12A8008A3289 /* SosBtn.storyboard in Resources */,
 				83ADB7532D78C6350084112D /* EmergencyContacts.storyboard in Resources */,
@@ -306,6 +313,7 @@
 				83AB05C82D764E2100C40DE6 /* RegisterVC.swift in Sources */,
 				83AB05C62D76351A00C40DE6 /* LogInVC.swift in Sources */,
 				83A0C62E2D760BE600B56E65 /* LandingViewController.swift in Sources */,
+				835864052D7A3951008A3289 /* patientsDashboardVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
