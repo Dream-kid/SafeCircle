@@ -55,9 +55,84 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 extension SceneDelegate {
     
     private func getInitialVC() -> UIViewController {
+        self.openRegisterVC()
+    }
+    private func openCareGiverprofileVC() -> UIViewController {
 
         let landingStoryboard = UIStoryboard(name: "careGiverProfile", bundle: nil)
         let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "careGiverProfileVC") as! careGiverProfileVC
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openPatientDAshboardVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "patientsDashboard", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "patientsDashboardVC") as! patientsDashboardVC
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openSosBtnVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "SosBtn", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "SosBtnVC") as! SosBtnVC
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func opoenEmergencyContactsVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "EmergencyContacts", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "EmergencyContactsVC") as! EmergencyContactsVC
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openVideoListVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "videoList", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "videoListVc") as! videoListVc
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openPatientsProfileVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "patientsProfile", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "patientsProfileVC") as! patientsProfileVC
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openLandingVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "Landing", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "LandingViewController") as! LandingViewController
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openLogInVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "Login", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+        let navController = UINavigationController(rootViewController: landingVC)
+        navController.navigationBar.isHidden = true
+        return navController
+        
+    }
+    private func openRegisterVC() -> UIViewController {
+
+        let landingStoryboard = UIStoryboard(name: "Register", bundle: nil)
+        let landingVC = landingStoryboard.instantiateViewController(withIdentifier: "RegisterVC") as! RegisterVC
         let navController = UINavigationController(rootViewController: landingVC)
         navController.navigationBar.isHidden = true
         return navController
