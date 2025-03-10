@@ -8,9 +8,9 @@ SafeCircle: An iOS-Based Smart Monitoring System for Alzheimer’s Patient Safet
 
 | Requirement            | Details                                          |
 |------------------------|--------------------------------------------------|
-| Platform               | iOS 18.2+                                        |
+| Platform               | iOS 15.0                                        |
 | Swift Version          | Swift 6.0.3                                       |
-| Xcode Version          | Xcode 16.2+                                      |
+| Xcode Version          | Xcode 16.2                                      |
 | Supported Architectures| arm64, x86_64 (Simulator)                        |
 | Dependency Managers    | Swift Package Manager                            |
 | Third-Party Services   | Firebase                                         |
