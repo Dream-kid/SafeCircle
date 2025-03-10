@@ -1,8 +1,7 @@
-# SafeCircle
+# SafeCircle <img src="https://github.com/Dream-kid/SafeCircle/raw/main/SafeCircle/images/launch.png" width="200" height="200"/>
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 SafeCircle: An iOS-Based Smart Monitoring System for Alzheimer’s Patient Safety
-<img src="https://github.com/Dream-kid/SafeCircle/raw/main/SafeCircle/images/launch.png" width="100" height="100" />
 
 
 ## Requirements
